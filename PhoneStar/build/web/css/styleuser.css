@@ -1,0 +1,10 @@
+.pro{
+    width: 65%;
+    margin: 40px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0,0,0,.4);
+    padding: 35px;
+}
+.half{
+    width: 45%;
+}

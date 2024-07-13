@@ -1,0 +1,20 @@
+
+.item{
+    background-image: linear-gradient(#f8eadd,#c7eeef);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 380px;
+}
+.item:hover{
+    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+}
+.item-name{
+    padding-bottom: 15px;
+    border-bottom: solid 2px gray;
+    color: #4DAB98;
+}
+.item-info{
+    margin: 20px 0;
+    color: #DF4FA6;
+}

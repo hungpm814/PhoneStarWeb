@@ -1,0 +1,80 @@
+.sh-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.sh-image img{
+    width: 35%;
+}
+.sh-dt-head{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+.sh-detail{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0 40px;
+    text-align: center justify;
+}
+.buybt1{
+    background-color: rgb(255, 18, 18);
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 415px;
+    border: none;
+    padding: 5px 0;
+    font-size: 25px;
+}
+.buybt2{
+    background-color: rgb(189, 106, 32);
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 415px;
+    border: none;
+    padding: 5px 0;
+    font-size: 20px;
+}
+.contactbt{
+    background-color: rgb(36, 173, 219);
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px 71px;
+    font-size: 20px;
+}
+.bt:hover{
+    box-shadow: 0 2px 12px rgba(0,0,0,.4);
+}
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#quantity {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border: 2px whitesmoke solid;
+}
+
+.btn-minus, .btn-plus {
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    padding: 0px 7px;
+    padding-bottom: 2px;
+    outline: none;
+    height: 30px;
+}
+
+.btn-minus:hover, .btn-plus:hover {
+    background-color: #ddd;
+}
